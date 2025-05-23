@@ -4,8 +4,8 @@ const exercise6 = () => {
   // Please Complete Exercise 6 here
   // Fetch users from `https://jsonplaceholder.typicode.com/users`.
   fetch("https://jsonplaceholder.typicode.com/users")
-    .then((res) => res.json()) // Convert response to JSON
-    .then((users) => console.log(users[0].name)) // Log the name of the first user
+    .then((res) => res.json()) 
+    .then((users) => console.log(users[0].name)) 
     .catch((error) => console.error("Error fetching users:", error));
 
   // Log each user’s name, email, and company.
